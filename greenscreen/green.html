@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Screen</title>
+    <link rel="stylesheet" href="greencss.css">
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script> 
+    <script src="greenjs.js"></script> 
+</head>
+<body>
+    <a href="../index.html"><img src="../images/logo_automatonus-removebg-preview.png" width="100px" height="100px"></a>
+    <h1>Green Screen Background Alteration</h1>
+    <canvas id="pic1"></canvas> 
+    <canvas id="pic2"></canvas>
+    <canvas id="pic3"></canvas>
+    <br />
+    <p id="for">Forward Image: 
+        <input type="file" id="fgFile" multiple="false" onChange="frontimg()">
+    </p>      
+    <p id="back">
+        Background Image: 
+        <input type="file" id="bgFile" multiple="false" onChange="backimg()">
+    </p>  
+    <input id="merge" type="button" value="Merge Image" onClick="merge()">
+    </div>
+</body>
+</html>

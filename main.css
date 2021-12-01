@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.heading
+{
+    height: 10vh;
+    color: seashell;
+    font-weight: bold;    
+}
+.heading marquee
+{
+    position:relative;
+    top:-20px;
+    font-size: 40px;
+    font-family: 'Prompt', sans-serif;
+    width: 1400px;
+}
+body
+{
+    
+    background-image: url("./images/landingbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button
+{
+    width:373px;
+    height: 300px;
+    border: 2px solid rgb(189, 181, 181);
+    box-shadow: 2px 2px 2px 5px rgba(24, 24, 109, 0.541);
+}
+.box1 ,.box2, .box3 ,.box4
+{
+    display: inline-block;
+}
+h2
+{
+    position: relative;
+    top:-75px;
+}
+p
+{
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+    text-align: justify;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.para
+{
+    height: 200px;
+    color:darkgoldenrod;
+    font-size: 70px;
+    margin: 40px;
+    margin-left: 100px;
+    font-family: 'Shadows Into Light', cursive;
+}
+#box1
+{
+    background-color:#BC986A;
+    position: fixed;
+    bottom:0px;
+}
+#box2 
+{
+    background-color: #659DBD;
+    position: fixed;
+    bottom:0px;
+    left:390px;
+}
+#box3
+{
+    background-color: #DAAD86;
+    position: fixed;
+    bottom:0px;
+    left:780px;
+}
+#box4
+{
+    background-color:#8D8741 ;
+    position: fixed;
+    bottom:0px;
+    right:0px;
+}
+button a
+{
+    text-decoration: none;
+    color: black;
+}
+button:hover
+{
+    color:whitesmoke;
+    box-shadow: 5px 5px 5px black;
+}

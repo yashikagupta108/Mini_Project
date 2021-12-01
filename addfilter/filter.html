@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filters</title>
+    <link rel="stylesheet" href="filter.css">
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <script src="filter.js"></script>
+</head>
+<body>
+    <div id="box1">
+        <a href="../index.html"><img src="../images/logo_automatonus-removebg-preview.png" width="120px" height="120px" style="padding: 20px; filter: brightness(200%);"></a>
+        <h2>Image Editing</h2>
+        <canvas id="pic1"></canvas>
+        <p id="para1">Select Image:
+            <input type="file" id="fillFile" multiple="false" onChange="setimg()">
+        </p>
+    </div>
+    <div id="box2">
+            <button onclick="makeGray()">Gray</button>
+            <button onclick="Rainbow()">Rainbow</button>
+            <button onclick="noRed()">No Red</button>
+            <button onclick="noYellow()">No Yellow</button>
+            <button onclick="noBlue()">No Blue</button>
+            <button onclick="makeRed()">All Red</button>
+            <button id="reset" onclick="reset()">Reset</button>
+    </div>
+</body>
+</html>

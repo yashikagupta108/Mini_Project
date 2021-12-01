@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+        *
+        {
+            margin: 0;
+            padding: 0;
+        }
+        body
+        {
+            background-image: linear-gradient(to right,grey,rgb(88, 119, 131),grey);
+            background-image: url(./images/body_bg2.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .landing
+        {
+            width: 900px;
+            height: 550px;
+            background-color:bisque;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 80px;
+        }
+        .nav ul
+        {
+            list-style-type: none; 
+            float: right;  
+        }
+        .nav ul li
+        {
+            display: inline-block;
+            margin: 20px;
+            padding: 12px;
+            font-size: 18px;
+        }
+        a
+        {
+            text-decoration: none;
+            color: black;
+        }
+        ul li:hover
+        {
+            background-color:cadetblue;
+            color:floralwhite;
+        }
+        h1
+        {
+            font-family:'Indie Flower', cursive;
+            text-align: center;
+            padding: 20px;
+            font-size: 40px;
+        }
+        .center
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        i
+        {
+            float: right;
+            position:relative;
+            bottom:230px;
+            right: 40px;
+            color:cadetblue;
+        }
+        i:hover
+        {
+            color:coral;
+        }
+        .landing:hover
+        {
+            box-shadow: 2px 5px 5px 8px rgba(24, 24, 92, 0.582);
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="landing">
+        <div class="nav">
+            <img src="./images/logo_automatonus-removebg-preview.png" width="80px" height="80px" style="padding: 20px;padding-top: 10px;"> 
+            <ul>
+                <li><a href="./main.html">Home</a></li>
+                <li><a href="./about/about.html">About</a></li>
+                <li><a href="./contact/contact.html">Contact Us</a></li>
+            </ul>
+            </div>
+            <hr>
+            <hr style="border:1px solid purple;">
+            <h1>We make Creative</h1>
+            <img class="center" src="./images/landing_center.jpeg" width="200px" height="200px">
+            <h1>Things, everyday.</h1>
+            <a href="./main.html"><i class="fa fa-chevron-circle-right fa-5x"></i></a>
+    </div>
+</body>
+</html>
